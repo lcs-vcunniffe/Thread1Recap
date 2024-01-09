@@ -6,11 +6,14 @@ var greeting = "Hello, playground"
 struct Dog {
     let breed: String
     let color: String
-    var heightInMetres: Double
+    var heightInMetres: Float
     
     // MARK: Computed properties
-    var heightInCentimetres: Double {
+    var heightInCentimetres: Float {
         return heightInMetres * 100
+    }
+    var lengthInMetres: Float {
+        return heightInMetres * 3/2
     }
 }
 
