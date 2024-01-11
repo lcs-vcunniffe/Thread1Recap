@@ -27,27 +27,18 @@ struct ContentView: View {
                 gradient: blueToPurple,
                 center: .topLeading,
                 startRadius: 100,
-                endRadius: 400
+                endRadius: 800
             )
                 .ignoresSafeArea()
             RadialGradient(
                 gradient: yellowToPurple,
                 center: .bottomTrailing,
                 startRadius: 150,
-                endRadius: 600
+                endRadius: 800
             )
                 .ignoresSafeArea()
-            VStack {
-                Image(systemName: "globe")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 100)
-                Text("Hello, world!")
-                    .font(.largeTitle)
-                    }
+            
         }
-        
-        .padding()
     }
 }
 
