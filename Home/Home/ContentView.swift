@@ -8,13 +8,45 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let blueToPurple = Gradient(
+        colors: [
+            Color.paleBlue,
+            Color.deepPurple,
+            Color.clear])
+    
+    let yellowToPurple = Gradient(
+        colors: [
+            Color.darkYellow,
+            Color.deepPurple,
+            Color.clear])
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            RadialGradient(
+                gradient: blueToPurple,
+                center: .topLeading,
+                startRadius: 100,
+                endRadius: 400
+            )
+                .ignoresSafeArea()
+            RadialGradient(
+                gradient: yellowToPurple,
+                center: .bottomTrailing,
+                startRadius: 150,
+                endRadius: 600
+            )
+                .ignoresSafeArea()
+            VStack {
+                Image(systemName: "globe")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100)
+                Text("Hello, world!")
+                    .font(.largeTitle)
+                    }
         }
+        
         .padding()
     }
 }
