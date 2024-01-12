@@ -33,11 +33,38 @@ struct ContentView: View {
             RadialGradient(
                 gradient: yellowToPurple,
                 center: .bottomTrailing,
-                startRadius: 150,
+                startRadius: 100,
                 endRadius: 800
             )
                 .ignoresSafeArea()
-            
+            VStack {
+                HStack {
+                    Spacer(minLength: 225)
+                    Image(systemName: "waveform")
+                        .resizable()
+                        .foregroundStyle(Color.white)
+                        .scaledToFit()
+                        .frame(width: 20)
+                    Spacer(minLength: 40)
+                    Image(systemName: "plus")
+                        .resizable()
+                        .foregroundStyle(Color.white)
+                        .scaledToFit()
+                        .frame(width: 20)
+                    Spacer(minLength: 40)
+                    Image(systemName: "ellipsis.circle")
+                        .resizable()
+                        .foregroundStyle(Color.white)
+                        .scaledToFit()
+                        .frame(width: 23)
+                    Spacer()
+                }
+                HStack {
+                    Text("My Home")
+                        .font(.largeTitle)
+                        .foregroundStyle(Color.white)
+                }
+            }
         }
     }
 }
