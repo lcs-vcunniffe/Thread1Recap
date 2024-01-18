@@ -11,6 +11,7 @@
 		2EC5C3C62B50743D00F69FB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5C3C52B50743D00F69FB1 /* ContentView.swift */; };
 		2EC5C3C82B50744000F69FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5C3C72B50744000F69FB1 /* Assets.xcassets */; };
 		2EC5C3CB2B50744000F69FB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5C3CA2B50744000F69FB1 /* Preview Assets.xcassets */; };
+		2EC5C3D82B56E52600F69FB1 /* CapsuleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5C3D72B56E52600F69FB1 /* CapsuleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2EC5C3C52B50743D00F69FB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2EC5C3C72B50744000F69FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EC5C3CA2B50744000F69FB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EC5C3D72B56E52600F69FB1 /* CapsuleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				2EC5C3C32B50743D00F69FB1 /* HomeApp.swift */,
 				2EC5C3C52B50743D00F69FB1 /* ContentView.swift */,
 				2EC5C3C72B50744000F69FB1 /* Assets.xcassets */,
+				2EC5C3D72B56E52600F69FB1 /* CapsuleButtonView.swift */,
 				2EC5C3C92B50744000F69FB1 /* Preview Content */,
 			);
 			path = Home;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC5C3D82B56E52600F69FB1 /* CapsuleButtonView.swift in Sources */,
 				2EC5C3C62B50743D00F69FB1 /* ContentView.swift in Sources */,
 				2EC5C3C42B50743D00F69FB1 /* HomeApp.swift in Sources */,
 			);

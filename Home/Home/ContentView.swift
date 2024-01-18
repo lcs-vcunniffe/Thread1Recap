@@ -63,6 +63,10 @@ struct ContentView: View {
                     Text("My Home")
                         .font(.largeTitle)
                         .foregroundStyle(Color.white)
+                    Spacer()
+                }
+                HStack {
+                    
                 }
             }
         }
